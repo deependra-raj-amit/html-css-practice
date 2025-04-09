@@ -1,0 +1,15 @@
+.navbar {
+    display: flex;                     /* Enables Flexbox */
+    justify-content: space-between;   /* Space between logo and menu */
+    align-items: center;              /* Vertically center content */
+    padding: 20px;
+    background-color: #0057b8;
+    color: white;
+  }
+  
+  .menu a {
+    margin-left: 20px;                /* Spacing between menu items */
+    color: white;
+    text-decoration: none;
+  }
+  

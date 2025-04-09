@@ -1,0 +1,17 @@
+.dashboard {
+    display: grid;                           /* Enable CSS Grid */
+    grid-template-columns: repeat(2, 1fr);   /* 2 columns, equal width */
+    gap: 25px;                               /* Space between items */
+    padding: 20px;
+  }
+  
+  .card {
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 30px;
+    text-align: center;
+  }
+  
+
+
+

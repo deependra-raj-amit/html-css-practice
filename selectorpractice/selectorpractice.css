@@ -1,0 +1,26 @@
+
+/* Select by ID: Only this specific button */
+#transferBtn {
+  background-color: #0057b8; /* Bank's primary color */
+  color: white;             /* Makes text readable on blue */
+  padding: 10px 20px;       /* Adds space inside the button */
+  border-radius: 5px;       /* Rounds the corners */
+  border: none; 
+  margin-left: 20px;            /* Removes default border */
+}
+
+/* Pseudo-class: Applies when user hovers over the button */
+#transferBtn:hover {
+  background-color: #4400ff; /* Slightly darker on hover */
+}
+
+
+
+.balance-card {
+  padding: 20px;           /* Space inside the box, around content */
+  margin: 20px;            /* Space outside the box, from other elements */
+  border: 1px solid #ccc;  /* Light gray border */
+  background-color: #f9f9f9; /* Light background for card */
+  width: 300px;            /* Fixed width */
+}
+  

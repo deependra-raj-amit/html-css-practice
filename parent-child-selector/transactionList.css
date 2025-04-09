@@ -1,0 +1,11 @@
+.transactions p {
+    color: green;
+  }
+  
+  .summary > .card {
+    border: 1px solid #ccc;
+  }
+  label + .amount-input {
+    border: 2px solid green;
+  }
+     
