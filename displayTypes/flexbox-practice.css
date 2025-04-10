@@ -1,15 +1,38 @@
+*{
+  box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0; 
+}
+
 .navbar {
-    display: flex;                     /* Enables Flexbox */
-    justify-content: space-between;   /* Space between logo and menu */
-    align-items: center;              /* Vertically center content */
-    padding: 20px;
-    background-color: #0057b8;
-    color: white;
-  }
+  width: 100%; 
+  max-width: 100vw; 
+  overflow-x: hidden; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #0057b8;
+  color: white;
   
-  .menu a {
-    margin-left: 20px;                /* Spacing between menu items */
-    color: white;
-    text-decoration: none;
-  }
-  
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}

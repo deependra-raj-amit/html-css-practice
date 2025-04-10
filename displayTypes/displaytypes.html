@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="displaytypes.css" />
   <link rel="stylesheet" href="flexbox-practice.css" />
   <link rel="stylesheet" href="gridPractice.css" />
+  <script src="displaytypes.js"></script>
 </head>
 <body>
 
@@ -14,21 +15,22 @@
 <nav class="navbar">
   <div class="logo">SafeBank</div>
   <div class="menu">
-    <a href="#">Accounts</a>
+    <a href="../userAccount/user-profile.html">Profile</a>
     <a href="../trancactions/transactions.html">Transactions</a>
     <a href="../forms/login.html">Logout</a>
   </div>
 </nav>
 
 
-<div class="login-box">Welcome to SafeBank</div>
+<div class="login-box"><img src="../images/safebank.png" alt="safebank logo" class = "logo"/>&nbsp  Welcome to SafeBank</div>
 
   <h1>Welcome to SafeBank Dashboard</h1>
+  
 
 
 
   <div class="account-section block">
-    <p>Name: Deependra Raj Amit</p>
+    <p>Name: <span id="user-name">Loading...</span></p> 
     <p>Account Type: Savings</p>
     <p>Balance: ₹1000000.00</p>
   </div>
@@ -42,10 +44,10 @@
 <!--Grid Practice-->
 
   <div class="dashboard">
-    <div class="card">Savings</div>
-    <div class="card">Checking</div>
-    <div class="card">Credit</div>
-    <div class="card">Loan</div>
+    <a href="../grids/saving.html" class="grid-card"><div class="card">Savings</div></a>
+    <a href="../grids/Investments.html" class="grid-card"><div class="card">Investments</div></a>
+    <a href="../grids/credit.html" class="grid-card"><div class="card">Credit</div></a>
+    <a href="../grids/loan.html" class="grid-card"><div class="card">Loans</div></a>
   </div>
   
 

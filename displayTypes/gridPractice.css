@@ -1,7 +1,7 @@
 .dashboard {
-    display: grid;                           /* Enable CSS Grid */
-    grid-template-columns: repeat(2, 1fr);   /* 2 columns, equal width */
-    gap: 25px;                               /* Space between items */
+    display: grid;                          
+    grid-template-columns: repeat(2, 1fr);   
+    gap: 25px;                               
     padding: 20px;
   }
   
@@ -12,6 +12,11 @@
     text-align: center;
   }
   
-
+ .grid-card {
+  text-decoration: none ;
+  color: black;
+  font-size: larger;
+  font-weight: bolder;
+ }
 
 

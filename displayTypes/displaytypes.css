@@ -7,15 +7,19 @@ body {
     color: #003366;
   }
   
-  /* Block example: takes full width */
+
   .block {
     display: block;
     background-color: #e6f2ff;
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  p {
+    margin-top: 10px;
   }
   
-  /* Inline example: elements stay in the same line */
+  
   .inline span {
     display: inline;
     background-color: #d3d9ea;
@@ -24,7 +28,7 @@ body {
     box-shadow: #003366 0px 0px 5px;
   }
   
-  /* Inline-block example: in-line placement but customizable size */
+
   .inline-block .mini-card {
     display: inline-block;
     background-color: #9cc7f9;
@@ -36,33 +40,37 @@ body {
     line-height: 50px;
     border-radius: 5px;
   }
-  
-  /* None example: completely hidden */ 
+
   .none {
     display:none;
   }
   
   .login-box {
-    width: 90%;            /* 90% of parent (screen width) */
-    max-width: 400px;      /* Don’t exceed 400px on larger screens */
-    padding: 2rem;         /* 2x root font-size */
-    margin: 50px auto;     /* Centered with margin on top */
+    width: 30%;            
+    max-width: 400px;      
+    padding: 2rem;         
+    margin: 50px auto; 
     background-color: white;
-    box-shadow: 20px 0px 20px rgba(2, 48, 255, 0.1); /* Subtle shadow */
+    box-shadow: 0px 20px 20px rgba(2, 48, 255, 0.1); 
     font-size: 1.2rem;
     font-weight: bolder;
     color: #0057b8;
+    justify-content: space-between;
   }
   
 
   .quick-transfer {
-    position: fixed;      /* Sticks to viewport */
-    bottom: 20px;         /* 20px from bottom */
-    right: 20px;          /* 20px from right */
+    position: fixed;      
+    bottom: 20px;        
+    right: 20px;          
     background-color: #0057b8;
     color: white;
     padding: 15px 25px;
     border-radius: 50px;
   }
   
-  
+  .logo {
+    vertical-align: middle;
+    height: 2em;  
+    border-radius: 100%;
+  }
